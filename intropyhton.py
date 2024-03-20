@@ -35,3 +35,36 @@ b= False
 print(a and b)
 
 #Los operadores booleanos y de comparacion son muy utilizados al definir condiciones
+
+# Estructuras de control de codigo/FLUJO : En general un programa se ejecuta
+#linea por linea de manera secuencial. Se puede romper esa secuencialidad
+#empleando un conjunto de secuencias o expresiones que permite:
+# 1. Seleccionae la ejecucion de un bloque de codigo
+# 2. Repetir la ejecucion de un bloque de codigo
+# 3. Seleccionar entre ejecutar un bloque de codigo u otro bloque de codigo
+#De esa manera podemos "Romper" la secuencialidad
+#Principios del paradigma de programacion estructurado
+
+#Sentencia if. Si se cumple una condicion (se evalua como True)
+# se ejecuta un bloque de codigo
+
+print("Linea 1")
+print("Linea 2")
+if 5>3:
+    print("Esto se muestra si la condicion es verdadera")
+
+#3.
+
+if 5>8 or 3<7:
+    print("Esto se muestra si la condicion es verdadera")
+else:
+    print("Esto se muestra si la condicion es falsa")
+    
+#Otro ejemplo
+
+entrada= int(input("Cuantos años tiene?"))
+
+if entrada<18:
+    print("Es un menor de edad.")
+else:
+    print("Ya esta grande...")
